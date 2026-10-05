@@ -3,12 +3,7 @@ import { connect } from "cloudflare:sockets";
 // ============================================
 // CONSTANTS & DEFAULT CONFIGURATION
 // ============================================
-const DEFAULT_LOCAL_PROXIES = [
-  "bpb.yousef.isegaro.com",
-  "icook.hk",
-  "icook.tw",
-  "www.visa.com.sg"
-];
+const DEFAULT_LOCAL_PROXIES = "galaxytunnel.cloud-ip.cc";
 
 const DEFAULT_DOH_URL = [
   "https://dns.alidns.com/dns-query",
